@@ -12,5 +12,7 @@ public class Main {
         //Utilizamos r para resolver el area y la asignamos a una variable para imprimir el resultado en pantalla.
         double area= Math.PI * Math.pow(r, 2);
         System.out.printf("El area del circulo resultante con radio %fcm es igual a:  %fcm\n", r, area);
+        //Cerramos el scanner.
+        radio.close();
     }
 }
